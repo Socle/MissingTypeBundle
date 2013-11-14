@@ -1,0 +1,24 @@
+{
+    "name": "socle/missing-type-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle aims to provide missing form type in Symfony2.",
+    "keywords": ["Form", "type", "boolean", "hidden"],
+    "license": "new BSD",
+    "authors": [
+        {
+            "name": "Soliman Cheyssial",
+            "email": "soliman.cheyssial@sialis.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.4",
+        "symfony/framework-bundle": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Socle\\Bundle\\SimpleListBundle": ""
+        }
+    },
+    "target-dir": "Socle/Bundle/MissingTypeBundle"
+}
