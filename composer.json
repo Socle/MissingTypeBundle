@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Socle\\Bundle\\SimpleListBundle": ""
+            "Socle\\Bundle\\MissingTypeBundle": ""
         }
     },
     "target-dir": "Socle/Bundle/MissingTypeBundle"
